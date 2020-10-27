@@ -1,0 +1,255 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: Arial;
+	font-size: 16px;
+	background-color: #42B5AE;
+}
+.contenedor
+{
+	width: 100%;	
+	margin: 0;
+	overflow: hidden;
+}
+header
+{
+	width: 100%;	
+	background: #000;	
+	
+	z-index: 1000;
+}
+header nav
+{
+	width: 100%;	
+}
+header nav ul 
+{
+	width: 100%;
+	overflow: hidden;
+}
+header nav ul li
+{
+	float: left;
+	list-style: none;
+}
+header nav ul li a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: white;
+}
+header nav ul li a:hover
+{
+	background: #545454;
+}
+header nav ul li .logo
+{
+	width: 150px;
+	height: 50px;
+}
+header nav ul li .logo .imagen
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+header nav ul li .logo .imagen:hover
+{
+	background: #000;
+}
+header nav ul li .logo .imagen img
+{
+	width: 150px;
+	height: 50px;	
+	padding: 10px;
+}
+.b
+{
+	margin-left: 55%; 
+}
+input[type='text']
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 3px;	
+	font-family: Arial;
+	font-size: 16px; 
+}
+input[type='submit']
+{	
+	width: 80px;
+	height: 30px;
+	margin-top: 10px;
+	background: #7CCCC7;
+	color:#fff;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.main
+{
+	width: 100%;
+	margin:auto;
+}
+.seccion1
+{
+	width: 100%;
+	background-color:  #00c69f;
+	padding: 10px 20%;
+	text-align: center;	
+}
+.seccion1 .datos
+{
+	width: 50%;
+	margin: 50px auto;
+}
+.seccion1 .datos .logo-top
+{
+	position: relative;
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	padding: 20px;
+	border: 3px solid #fff; 
+}
+.seccion1 .datos .logo-top p
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 7px;	
+	color: #fff;
+}
+.main .seccion1 .nosotros 
+{
+	width: 80%;
+	margin: 0 auto;
+}
+.main .seccion1 .nosotros p
+{
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 10px;
+}
+.main .seccion1 .nosotros h2
+{
+	font-size: 30px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+.seccion2
+{
+	width: 100%;
+	background-color: #00d6ac;
+	padding: 10px 0;
+	text-align: center;	
+}
+.main .seccion2 .ubicacion
+{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+  	align-items: center;
+  	border: 1px solid #fff;
+  	border-radius: 10px;
+}
+.main .seccion2 .ubicacion .texto 
+{
+	width: 50%;
+}
+.main .seccion2 .ubicacion .texto img
+{
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 50px;	
+	margin: 0 10px;
+}
+.main .seccion2 .ubicacion .texto p
+{
+	font-size: 20px;
+	height: 50px;
+	padding: 10px 0px;
+}
+.main .seccion2 .ubicacion .mapa
+{	
+	padding: 10px 35px;
+	border-left: 1px solid #fff;
+}
+footer
+{
+	width: 100%;
+}
+.redes
+{
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color: #02837B;
+	justify-content: center;	
+}
+footer .redes img
+{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+}
+footer .info
+{
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid #000;
+	justify-content: center;
+	align-items: center;
+}
+footer .info .datos  
+{
+	width: 33%;
+	display: inline-block;
+}
+footer .info .datos ul
+{
+	list-style: none;
+}
+footer .info .datos ul li
+{
+	padding: 30px 0;
+	
+}
+footer .info .datos ul li img
+{
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 50px;	
+	margin: 0 15px;
+}
+footer .info .datos ul li p
+{	
+	height: 50px;
+	padding: 10px 0px;
+}
+footer .info .datos .logo-footer
+{
+	position: relative;
+	width: 50%;
+	height: 100px;
+	margin: auto;
+	padding: 20px;
+	border: 3px solid #fff; 
+}
+footer .info .datos .logo-footer p
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 7px;	
+	color: #fff;
+}
+
