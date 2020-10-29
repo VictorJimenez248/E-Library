@@ -7,91 +7,20 @@
 body
 {
 	font-family: Arial;
-	font-size: 16px;
-	background-color: #42B5AE;
+	font-size: 16px;	
 }
 .contenedor
 {
 	width: 100%;	
 	margin: 0;
 	overflow: hidden;
+	background-color: #42B5AE;
 }
 header
 {
 	width: 100%;	
 	background: #000;	
-	
 	z-index: 1000;
-}
-header nav
-{
-	width: 100%;	
-}
-header nav ul 
-{
-	width: 100%;
-	overflow: hidden;
-}
-header nav ul li
-{
-	float: left;
-	list-style: none;
-}
-header nav ul li a
-{
-	text-decoration: none;
-	display: inline-block;
-	padding: 15px 20px;
-	color: white;
-}
-header nav ul li a:hover
-{
-	background: #545454;
-}
-header nav ul li .logo
-{
-	width: 150px;
-	height: 50px;
-}
-header nav ul li .logo .imagen
-{
-	width: 100%;
-	height: 100%;
-	padding: 0;
-}
-header nav ul li .logo .imagen:hover
-{
-	background: #000;
-}
-header nav ul li .logo .imagen img
-{
-	width: 150px;
-	height: 50px;	
-	padding: 10px;
-}
-.b
-{
-	margin-left: 55%; 
-}
-input[type='text']
-{
-	width: 200px;
-	height: 30px;
-	margin-top: 10px;
-	border-radius: 3px;	
-	font-family: Arial;
-	font-size: 16px; 
-}
-input[type='submit']
-{	
-	width: 80px;
-	height: 30px;
-	margin-top: 10px;
-	background: #7CCCC7;
-	color:#fff;
-	cursor: pointer;
-	font-size: 16px;
-	border-radius: 3px;
 }
 .main
 {
@@ -194,15 +123,18 @@ footer .info .datos .logo-footer
 	position: relative;
 	width: 50%;
 	height: 100px;
-	margin: auto;
+	margin: 0 auto;
 	padding: 20px;
 	border: 3px solid #fff; 
 }
 footer .info .datos .logo-footer p
 {
-	text-align: center;
+	position: relative;
+	text-align: center;	
 	font-size: 40px;
-	margin-top: 7px;	
+	margin-top: 7px;
+	margin-bottom: 0;
 	color: #fff;
+	line-height: 1;
 }
 
