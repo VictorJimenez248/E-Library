@@ -93,94 +93,68 @@ input[type='submit']
 	font-size: 16px;
 	border-radius: 3px;
 }
+.titulo
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0; 
+	color: #fff;
+	text-align: center;
+	background-color:  #1e9d84;
+}
+ul
+{
+	list-style: none;
+}
 .main
 {
-	width: 100%;
-	margin:auto;
+	width: 100%;	
 }
-.seccion1
+.contenedor .main .contacto-info
 {
-	width: 100%;
-	background-color:  #359A94/*#00c69f*/;
-	padding: 10px 20%;
-	text-align: center;	
+	width: 40%;
+	padding: 10px;
+	margin: 100px auto;
+	background-color: #359A94;	
+	border-radius: 10px;
 }
-.seccion1 .datos
+.contenedor .main .contacto-info ul li
 {
-	width: 50%;
-	margin: 50px auto;
+	margin: 10px 0;
 }
-.seccion1 .datos .logo-top
+.telefonos, .emails
 {
-	position: relative;
-	width: 50%;
-	height: 100px;
-	margin: auto;
-	padding: 20px;
-	border: 3px solid #fff; 
-}
-.seccion1 .datos .logo-top p
-{
-	text-align: center;
-	font-size: 40px;
-	margin-top: 7px;	
+	width: 49%;
+	height: 160px;
+	display: inline-block;
+	vertical-align: top;
 	color: #fff;
+	border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
-.main .seccion1 .nosotros 
+.telefonos
 {
-	width: 80%;
-	margin: 0 auto;
+	border-right: 2px solid rgba(255, 255, 255, .5);
 }
-.main .seccion1 .nosotros p
+.emails
 {
-	font-size: 25px;
-	text-align: justify;
+	border-left: 2px solid rgba(255, 255, 255, .5);
+	margin-left: -6px;
+	padding-left: 6px;
+}
+.horario
+{
+	width: 50%;
+	margin: 20px auto;
+	color: #fff;  	
+}
+.contenedor .main .contacto-info p
+{
 	margin-top: 10px;
 }
-.main .seccion1 .nosotros h2
+.contenedor .main .contacto-info h2
 {
+	text-align: center;
 	font-size: 30px;
-	margin-bottom: 10px;
-	border-bottom: 1px solid #fff;
-}
-.seccion2
-{
-	width: 100%;
-	background-color:  #42B5AE;
-	padding: 10px 0;
-	text-align: center;	
-}
-.main .seccion2 .ubicacion
-{
-	width: 70%;
-	margin: 0 auto;
-	display: flex;
-  	align-items: center;
-  	border: 1px solid #fff;
-  	border-radius: 10px;
-}
-.main .seccion2 .ubicacion .texto 
-{
-	width: 50%;
-}
-.main .seccion2 .ubicacion .texto img
-{
-	position: relative;
-	float: left;
-	width: 50px;
-	height: 50px;	
-	margin: 0 10px;
-}
-.main .seccion2 .ubicacion .texto p
-{
-	font-size: 20px;
-	height: 50px;
-	padding: 10px 0px;
-}
-.main .seccion2 .ubicacion .mapa
-{	
-	padding: 10px 35px;
-	border-left: 1px solid #fff;
 }
 footer
 {
